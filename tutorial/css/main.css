@@ -1,0 +1,403 @@
+  body {
+      background-image: url("Images/egg_shell.jpg");
+  }
+  
+  .parallax-window {
+      min-height: 500px;
+      background: transparent;
+  }
+  
+  a {
+      text-decoration: none !important;
+      color: black !important;
+  }
+  
+  a:hover {
+      text-decoration: none !important;
+  }
+  
+  p {
+      padding-bottom: 20px;
+  }
+  
+  .apps {
+      margin-top: 0px;
+      font-size: 20px;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      padding: 2px;
+      border: 1px solid white;
+      margin-bottom: 10px;
+      background-color: red;
+      color: white;
+      border-radius: 360px;
+      -webkit-transition: 300ms all ease-in-out;
+      -o-transition: 300ms all ease-in-out;
+      transition: 300ms all ease-in-out;
+  }
+  
+  .apps:hover {
+      color: black;
+      background-color: white;
+      border-bottom: 2px solid red !important;
+      border-top: 1px solid red !important;
+      -webkit-transition: 300ms all ease-in-out;
+      -o-transition: 300ms all ease-in-out;
+      transition: 300ms all ease-in-out;
+  }
+  
+  .social {
+      font-size: 20px;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      padding: 5px;
+      border: 1px solid #cccccc;
+      margin-bottom: 10px;
+      margin-right: 5px;
+      color: white;
+      background-color: red;
+      -webkit-transition: 300ms all ease-in-out;
+      -o-transition: 300ms all ease-in-out;
+      transition: 300ms all ease-in-out;
+  }
+  
+  .social:hover {
+      color: red;
+      background-color: white;
+      -webkit-transition: 300ms all ease-in-out;
+      -o-transition: 300ms all ease-in-out;
+      transition: 300ms all ease-in-out;
+  }
+  
+  .card {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1) !important;
+      height: 300px;
+  }
+  
+  hr {
+      -moz-border-bottom-colors: grey;
+      -moz-border-image: none;
+      -moz-border-left-colors: grey;
+      -moz-border-right-colors: grey;
+      -moz-border-top-colors: grey;
+      border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+      border-style: solid none;
+      border-width: 2px 0;
+      margin: 18px 0;
+  }
+  
+  .card:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+  }
+  
+  #bottom-menu img:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+  }
+  
+  #mynavbar {
+      color: white;
+      height: 40px;
+      background-color: transparent !important;
+  }
+  
+  .myjump {
+      margin-left: 80px;
+  }
+  
+  #top {
+      background-color: black;
+      top: 20px;
+      padding-top: 80px;
+      line-height: 80px;
+      color: white;
+  }
+  
+  #top .myjump {
+      margin-top: -20px;
+  }
+  
+  @media (max-width: 400px) {
+      #myCarousel {
+          display: none;
+      }
+      .myjump {
+          display: none;
+      }
+      
+     
+  }
+  
+  @media(max-width :10000px) {
+      #bottom-menu img {
+          margin-bottom: 10px !important;
+      }
+  }
+  
+  @media screen and (max-width: 479px) {
+      .parallax-window {
+          -moz-background-size: auto;
+          -webkit-background-size: auto;
+          background-attachment: scroll;
+          background-position: top;
+          background-size: auto;
+      }
+      
+     
+  }
+  
+  ul li {
+      list-style: none;
+      padding: 2px;
+  }
+  
+  #footer ul li a {
+      color: black;
+      transition: 100ms all ease-in-out;
+      text-shadow: 1px 1px 5px grey;
+  }
+  
+  #footer ul li a:hover {
+      font-size: 15px;
+      padding: 20px;
+      transition: 100ms all ease-in-out;
+  }
+  
+  #pizza-menu:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+      -webkit-transition: 300ms all ease-in-out !important;
+      -o-transition: 300ms all ease-in-out !important;
+      transition: 300ms all ease-in-out !important;
+  }
+  
+  #pizza-menu {
+      -webkit-transition: 300ms all ease-in-out !important;
+      -o-transition: 300ms all ease-in-out !important;
+      transition: 300ms all ease-in-out !important;
+  }
+  
+  .mymenu {
+      -webkit-transition: 300ms all ease-in-out !important;
+      -o-transition: 300ms all ease-in-out !important;
+      transition: 300ms all ease-in-out !important;
+  }
+  
+  .mymenu:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+      -webkit-transition: 300ms all ease-in-out !important;
+      -o-transition: 300ms all ease-in-out !important;
+      transition: 300ms all ease-in-out !important;
+  }
+
+.dropdown-menu >li > a{
+    color:brown !important; 
+}
+.btn-info:hover{
+    color: rgb(49, 176, 213) !important;
+    background-color: white !important; 
+}
+
+.btn-info:active{
+    color: orange !important;
+    border-bottom: 2px solid purple !important;
+}
+
+#ChooseModalHeader{
+    background-color: rgb(178, 1, 13) !important; 
+    color:  white !important; 
+}
+ 
+
+#welcomeText{
+    position: absolute;
+     margin: 0px; 
+    padding: 0 20px; 
+ font-size: 2vw;
+text-shadow: 0 0 20px #ff005b;
+   margin-top: 0px;
+   
+}
+  
+#pzmessage{
+    margin-left: 500px !important;
+    font-size: 2vw;
+}
+#ads{
+    border-top: 2px solid red; 
+    border-bottom: 2px solid red; 
+    
+     
+}
+
+#adspic{
+    margin-top: 20px;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#loginHeader{
+    background-color: purple; 
+    color: white; 
+    
+}
+#loginFooter{
+    color: white; 
+    background-color: lightgray;
+}
+#navCenter{
+    margin-left:25% !important;
+   font-family: 'Fredoka One', cursive;
+     
+}
+.login_modal_header{
+    background-color:darkslateblue; 
+    color: white;
+    
+    
+    
+}
+.login_modal_footer{
+    color: white; 
+    background-color: darkslategrey; 
+}
+#home-section{
+    background: url(../Images/contact.jpeg) no-repeat; 
+    min-height: 700px;
+    background-size: cover; 
+    background-attachment: fixed;
+    width: 100%; 
+}
+#home-section .dark-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 80;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    border-bottom: 2px solid red; 
+}
+#home-section .home-inner {
+    padding-top: 300px;
+    padding-left:500px;
+    color: white;
+     
+}
+
+.home-section-bottom{
+     background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    margin-top: 600px;
+    height: 50px;
+    width: 97.8%; 
+    padding-bottom:100px;
+    color: white;
+        
+}
+.homeText{
+    padding-left: 50px;
+}
+
+.homeSubText{
+    padding-left: 50px;
+}
+.half-circle{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 70px;
+   margin-bottom: 95px !important; 
+    border-radius:360px;
+    margin-left: 48%;
+    background-color: white; 
+}
+
+#menuContainer{
+ 
+    padding: 50px 0px 25px 72px;
+}
+
+@media(max-width:768px)
+{
+ #menuContainer{
+  padding: 30px;
+} 
+    #footer{
+        padding: 35px;
+    }
+}
+
+ @media (max-width: 991px) { 
+ #menuContainer{
+  padding: 40px;
+}
+
+
+}
+.imgChief{
+  height: 250px!important;
+    width:800px !important;
+     
+    margin-top: -10px;
+    padding-right: 0px;
+    padding-bottom:10px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition:all 0.3s ;
+}
+.imgChief:hover{
+  height: 250px!important;
+    width:800px !important;
+     margin-top: -10px;
+    padding-right: 0px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    transform: scale(1.1)
+}
+.restaurant-img{
+   height: 250px!important;
+    width:800px !important;
+     
+    margin-top: -10px;
+    padding-right: 0px;
+
+}
+
+#section-cheif{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    
+    
+}
+#textforCheif{
+    text-align:left;
+    color: black;
+    font-size: 17px;
+    padding: 5px;
+    border-left: 2px solid red;
+    border-bottom:2px solid red;
+}
+#restaurant-text{
+     border-right: 2px solid red;
+    border-bottom: 2px solid red; 
+    font-size: 20px;
+    
+}
+.img-cheif{
+    padding-bottom:
+        20px;
+}
+.contactPage{
+    margin-top: 18px;
+    padding: 30px;
+    color: white;
+   background-color: rgba(0, 0, 0, 0.7);
+    width:100%; 
+   
+}
+.opening-day a ul li{
+    color: white; 
+    
+}
