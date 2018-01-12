@@ -41,9 +41,7 @@ if(isset($_GET["myemail"]))
            
         
        }
-       else{
-           echo "Invalid Email address";
-       }
+       
              
          
         }
