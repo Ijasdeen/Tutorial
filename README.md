@@ -4,7 +4,7 @@ I've developed this website for you-tube video to help the people who are in nee
 
 # What is next?
 
-I've decided to develop complex websites for getting people understood how they work. This time, I added documentation for only difficult codes.But I will add full documentation for every single line of codes in future. 
+I've decided to develop complex websites for getting people understood how they work. This time, I added documentation for only difficult codes.But I will add full documentation for every single line of codes in future.
 
 My You-tube channel link :https://www.youtube.com/channel/UCZgU65RlHuaH73v5DKU3qcQ/videos
 
