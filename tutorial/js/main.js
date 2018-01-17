@@ -26,7 +26,7 @@ $(document).ready(function () {
         });
          
         });
-     
+     // This is what we do is to show the enabled pic from disabled pic.  
     $("#takenPicDisable").click(function(){
        $("#deliverPicEnable").slideUp(50, function(){
         $("#deliverPicdisable").slideDown(50);
@@ -44,7 +44,7 @@ $(document).ready(function () {
     });
     
  
-    
+    //This is coming from Login modal
     $("#login_button").click(function () {
       
          var userEmail = $("#userEmail").val();
