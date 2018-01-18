@@ -1,5 +1,5 @@
 # Pizza hut
-I've uploaded a completed website using HTML5, CSS3, Javascript, Jquery, PHP, mySql as well as some animation libraries. It contains not only the pizza but also other meals. It will also enable you to place the order.  
+I've uploaded a completed website using HTML5, CSS3, Javascript, Jquery, PHP, mySql as well as some animation libraries. It contains not only the pizza but also other meals. It will also enable you to place the order. The next version of this website will include better designing and fast performace. 
 
 # What is next?
 
