@@ -127,7 +127,7 @@ function changePasswordCheck()
                document.getElementById("olMessage").innerHTML="";
     
     }
-     
+     //If the message does not show "Ok", It will instruct the users to enter more password
     if(newPasswordMessage.innerHTML!="Ok")
         {
             confirmPasswordMessage.innerHTML="Please enter strong passwords";
@@ -146,8 +146,8 @@ function changePasswordCheck()
    
     
 }
-
-function newpassword(mypassword)
+//This is coming from changePassword modal 
+function newpassword(mypassword) //This is the parameter passing from changePassword modal. 
 {
     var message=document.getElementById("newPasswordMessege"); 
     var mynewPassword=mypassword.length; 
