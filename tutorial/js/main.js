@@ -182,7 +182,9 @@ function checkAll() {
     var emailHelper=document.getElementById("email_helper").innerHTML; 
      
     var pass_length = password.length;
-    if (pass_length < 10) {
+    if (pass_length < 10) 
+    {
+        //If the password is lesser than 10 letters. It won't let the user to sign up 
         document.forms["signUp"]["password"].focus();
         return false;
     }
