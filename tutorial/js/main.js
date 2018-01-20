@@ -101,7 +101,7 @@ function changePasswordCheck()
       var newpassword=document.getElementById("mynewpassword").value; 
     var confirmpassword=document.getElementById("confirmPassword").value;
     
-    
+    //If the new password doesn't match with confirm password. 
     if(newpassword!==confirmpassword)
         {
               document.getElementById("confirmPassword").focus();
@@ -324,6 +324,7 @@ function checkOrderAddress()
             return false; 
         }
     else {
+        //If the address field is filled when the apartment field is empty, border of the field would be in green 
         address.style.borderColor="green";
     }
     if(apt.value=="")
