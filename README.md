@@ -4,8 +4,7 @@ I've uploaded a completed website using HTML5, CSS3, Javascript, Jquery, PHP, my
 Note : Before opening the project. Pelase ensure that your computer is connected to the internet. Because I have put only CDN. If you don't want it to be online project, I've downloaded and kept all required files in the same folder so that you can use easily.  
 
 # What is next?
-
-I've decided to develop complex websites for getting people understood how they work. This time, I added documentation for only difficult codes.But I will add full documentation for every single line of codes in future.
+My purpose is to create those complext websites using known technologies for the people who are in need. 
 
 My You-tube channel link :https://www.youtube.com/channel/UCZgU65RlHuaH73v5DKU3qcQ/videos
 
