@@ -1,6 +1,6 @@
 <?php
 
-require_once("Include/header.php"); //Taking header from include file
+require_once("Include/header.php"); //Taking header from include file. The header.php has all the required CDN and other links. 
 ?>
 
 <div class="container" style="margin-top:20px;">
