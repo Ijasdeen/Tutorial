@@ -8,5 +8,5 @@ My purpose is to create those complext websites using known technologies for the
 
 My You-tube channel link :https://www.youtube.com/channel/UCZgU65RlHuaH73v5DKU3qcQ/videos
 
-I hope you guys you love it. 
+I hope you guys you love it. I quote 
 
