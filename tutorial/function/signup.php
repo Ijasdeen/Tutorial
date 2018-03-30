@@ -67,6 +67,7 @@ if(isset($_POST["btnSignup"]))
    
     if(empty($first_name) || empty($last_name) || empty($email) || empty($password) || empty($address_1) ||  empty($address_2) || empty($mobile))
     {
+      //When any of those data misses, it will redirect to the index.php
         header("location:../index.php");
         exit();
     }
