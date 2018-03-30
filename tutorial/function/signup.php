@@ -47,7 +47,7 @@ if(isset($_GET["myemail"]))
          
         }
 
-
+//When the method calls only "POST"
 if($_SERVER["REQUEST_METHOD"]=="POST")
 {
     if($connection)
