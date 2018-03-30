@@ -6,6 +6,7 @@ session_start();
 $connection=mysqli_connect("localhost","root","","pizza_hut");
 $mymessage="";
 $myEmail="";
+//When email is getting from URL by using AJAx
 if(isset($_GET["myemail"]))
 {
     $myEmail=mysqli_real_escape_string($connection, $_GET["myemail"]);
